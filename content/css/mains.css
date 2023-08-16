@@ -1,0 +1,198 @@
+@font-face {
+    font-family: Mergeblack;
+    src: url(../MergeBlack.woff);
+}
+
+.module{
+    width: 100%;
+
+}
+.module-content{
+    display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+  
+}
+.img-box{
+    width: 30%;
+    padding: 10px;
+    
+}
+.img-box img{
+    width: 100%;
+
+}
+.content{
+    width: 100%;
+    height: auto;
+}
+.new h2{
+    text-align: center;
+    padding: 30px 0;
+}
+.dishes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.dishes>a{
+    width: 25%;
+    text-align: center;
+}
+.dishes>a img{
+    width: 100%;
+}
+.hot-sale{
+
+    font-size: 23px;
+    text-align: center;
+    color: rgb(202, 18, 18);
+    font-family: Mergeblack;
+
+}
+.item_name{
+    padding: 10px 0;
+    color: rgb(68, 67, 67);
+}
+.item_price{
+    padding: 5px 0;
+    color:black;
+}
+
+.last-line{
+    width: 100%;
+    text-align: center;
+}
+.text-line{
+    width: 100%;
+
+}
+.text-line h2{
+    padding: 0px ;
+}
+/* .btn_order{
+    cursor: pointer;
+}
+.btn_order:hover{
+    background-color: #3D8DAE;
+} */
+
+
+@font-face {
+    font-family: Mergeblack;
+    src: url(../MergeBlack.woff);
+}
+    .ani-text {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .ani-text-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+.ani-text-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .ani-text-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .last-line {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: auto;
+  }
+  
+  .text-line {
+    font-family: Mergeblack;
+    font-weight: 800;
+    font-size: 55px;
+    text-transform: uppercase;
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+  .new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.new h2 {
+  margin: 0;
+  font-size: 3.7em;
+  padding: 20px;
+  color: white;
+  text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);}
+ .new h2 span {
+    transform: scale(0.8);
+    display: inline-block;
+
+  }
+  .new h2 span:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+      alternate;
+  }
+  .new h2 span:last-child {
+    animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
+      infinite alternate;
+  }
+
+  .dishes a{
+    font-family: Mergeblack;
+
+}
+@keyframes bop {
+  0% {
+    transform: scale(0.8);
+  }
+  50%,
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes bopB {
+  0% {
+    transform: scale(0.8);
+  }
+  80%,
+  100% {
+    transform: scale(0.9) ;
+  }
+}
+.banner{
+  border-radius: 5px;
+
+ top: 110px;
+}
+.w3-content img{
+  border-radius: 10px;
+
+}

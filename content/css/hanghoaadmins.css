@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Mergeblack;
+    src: url(../MergeBlack.woff);
+}
+    .add-sp{
+        font-family: Mergeblack;
+        width: 100%;
+       text-align: left;
+    }
+    .add-sp .row-add-sp{
+        
+        margin: 0 auto;
+
+    }
+    .add-text h2{
+        width: 90%;
+        margin: 0 auto;
+        color: red;
+        font-size: 23px;
+        text-align: center;
+    }
+    .add-sp .row-add-sp form{
+        width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       /* justify-content: space-around; */
+    }
+    #form-add-sp .forms-group{
+        /* padding: 10px 0; */
+        width: 31%;
+        margin: 10px;
+      
+
+
+    }
+    #form-add-sp .forms-group:nth-child(10){
+        /* padding: 10px 0; */
+        width: 100%;
+        margin: 10px;
+      
+
+
+    }   #form-add-sp .forms-group:nth-child(11){
+        /* padding: 10px 0; */
+        width: 100%;
+        margin: 10px;
+      
+
+
+    }
+    #form-add-sp .forms-group select{
+        width: 100%;
+        padding: 7px 10px;
+        
+    }
+    #form-add-sp .forms-group label{
+        width: 100%;
+        
+    }
+    #form-add-sp .forms-group .form-contronls{
+        width: 100%;
+        padding: 7px 10px;
+        outline: none;
+        font-family: Mergeblack;
+
+       
+    }
+    button{
+        font-family: Mergeblack;
+        padding: 7px 20px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: brown;
+    }
+  .forms-group a{
+       
+        text-decoration: none;
+        font-family: Mergeblack;
+        padding: 7px 20px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: brown;
+    }
+    button a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    #form-add-sp .btns_ad{
+        padding: 10px 0;
+        width: 50%;
+        float: left;
+    }
+    .form-group img{
+        width: 40%;
+        height: 250px;
+        /* float: left; */
+    }
+table{
+    font-family: Mergeblack;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.add-text h2{
+    width: 90%;
+    margin:10px auto;
+    color: red;
+    font-size: 23px;
+    text-align: center;
+}
+tr th{
+    padding: 10px;
+
+
+}
+tr td{
+    padding: 10px;
+
+
+}
+td a{
+    color: blueviolet;
+}
+td a:hover{
+    text-decoration: underline;
+}
+.btn-add-dms{
+    text-align: center;
+}
+.forms-group-col2{
+    width: 49%;
+    margin: 10px;
+}

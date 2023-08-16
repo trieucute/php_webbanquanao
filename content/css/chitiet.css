@@ -1,0 +1,132 @@
+a{
+    text-decoration: none;
+}
+.chitietsp{
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    width: 85%;
+    padding-bottom: 20px;
+
+}
+.img-sp {
+    width: 50%;
+}
+
+.list-sp{
+    width: 50%;
+    
+}
+
+.img-sp img{
+    height: 650px;
+    width: 100%;
+}
+.list-sp .name{
+    color: rgb(68, 67, 67);
+    font-family: Mergeblack;
+
+}
+.gias{
+    font-size: 27px;
+    font-family: Mergeblack;
+
+}
+#size-sp{
+    padding: 5px 50px 5px 10px;
+    width: 50%;
+   outline: none;
+
+}
+.size{
+    color: rgb(68, 67, 67);
+    font-family: Mergeblack;
+    font-size: 20px;
+    padding: 20px 0;
+}
+#size-sp {
+    margin-left:35px;
+}
+#size-sp option{
+    color: rgb(68, 67, 67);
+    font-family: Mergeblack;
+}
+.sl{
+    color: rgb(68, 67, 67);
+    font-family: Mergeblack;
+    font-size: 20px;
+    padding-bottom: 20px ;
+
+
+}
+.sl a{
+    padding: 0 20px;
+}
+.btn-sp{
+    padding-bottom: 20px;
+}
+
+
+.btn-one{
+display: block;
+padding: 5px 80px;
+font-family: Mergeblack;
+font-size: 16px;
+text-decoration: none;
+color: #333;
+border: 2px solid #333;
+letter-spacing: 2px;
+cursor: pointer;
+text-align: center;
+position: relative;
+transition: all .35s;
+}
+
+.btn-one span{
+position: relative;
+z-index: 2;
+}
+
+.btn-one:after{
+position: absolute;
+content: "";
+border: none;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background-color: #3D8DAE;
+
+transition: all .35s;
+}
+
+.btn-one:hover{
+color: #fff;
+}
+
+.btn-one:hover:after{
+width: 100%;
+border: none;
+
+}
+
+
+.font h2{
+
+    font-family: Mergeblack;
+
+}
+.add-sp{
+    margin: 50px 0;
+}
+.add-sp h3{
+    font-family: Mergeblack;
+    text-align: center;
+    padding: 10px 0 30px 0 ;
+}
+.mota{
+    font-family:'Times New Roman', Times, serif;
+   
+    font-size: 17px;
+    
+}

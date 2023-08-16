@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Mergeblack;
+    src: url(../MergeBlack.woff);
+}
+    .add-sp{
+        font-family: Mergeblack;
+        width: 100%;
+       text-align: left;
+    }
+    .add-sp .row-add-sp{
+        
+        margin: 0 auto;
+
+    }
+    .add-text h2{
+        width: 90%;
+        margin: 0 auto;
+        color: red;
+        text-align: center;
+        font-size: 23px;
+    }
+    .add-sp .row-add-sp form{
+        width: 100%;
+       
+
+    }
+    #form-add-sp .form-group{
+        padding: 10px 0;
+        width: 100%;
+        margin: 0 auto;
+
+
+    }
+    #form-add-sp .form-group select{
+        width: 60%;
+        padding: 7px 10px;
+        
+    }
+    #form-add-sp .form-group label{
+        width: 100%;
+        float: left;
+    }
+    #form-add-sp .form-group input{
+        width: 60%;
+        padding: 7px 10px;
+        outline: none;
+        font-family: Mergeblack;
+
+       
+    }
+    button{
+        font-family: Mergeblack;
+        padding: 7px 20px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: brown;
+    }
+  .form-group a{
+       
+        text-decoration: none;
+        font-family: Mergeblack;
+        padding: 7px 20px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: brown;
+    }
+    button a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    #form-add-sp .btns_ad{
+        padding: 10px 0;
+        width: 50%;
+        float: left;
+    }
+    .form-group img{
+        width: 40%;
+        height: 250px;
+        /* float: left; */
+    }
+table{
+    font-family: Mergeblack;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.add-text h2{
+    width: 90%;
+    margin:10px auto;
+    color: red;
+    text-align: center;
+    font-size: 23px;
+}
+tr th{
+    padding: 10px;
+
+
+}
+tr td{
+    padding: 10px;
+
+
+}
+td a{
+    color: blueviolet;
+}
+td a:hover{
+    text-decoration: underline;
+}
+.btn-add-dms{
+    text-align: center;
+}

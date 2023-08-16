@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Mergeblack;
+    src: url(../MergeBlack.woff);
+}
+.foot{
+    display: flex;
+    padding: 30px 0;
+    background-color: rgb(224, 218, 210);
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.store-addr{
+    width: 23%;
+}
+.chinh-sach{
+    width: 22%;
+}
+.contact{
+    width: 22%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.media{
+    width: 22%;
+}
+.name-line h4{
+    text-align: justify;
+    font-family: Mergeblack;
+    padding: 10px 0;
+
+}
+.icon-media a{
+    padding: 0 30px;
+}
+.icon-media a i{
+   font-size: 25px;
+}
+.img-ctn{
+    padding: 20px 10px;
+   
+}
+.img-ctn img{
+    width: 50%;
+}
+.foot p{
+    font-size: 17px;
+}

@@ -1,0 +1,85 @@
+.row-contact{
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.maps{
+    width: 50%;
+}
+.text-contacts{
+    width: 50%;
+}
+.box-info{
+    line-height: 15px;
+    font-family: 'Gotham Light', sans-serif;
+}
+.list-info{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0;
+}
+.list-info li{
+    padding-bottom: 5px ;
+    font-size: 18px;
+}
+.box-send{
+    font-family: 'Gotham Light', sans-serif;
+}
+.form-contact{
+display: flex;
+width: 90%;
+padding: 20px 0;
+flex-wrap: wrap;
+margin-bottom: 20px;
+}
+.form-contact .btn_order{
+border-radius: 15px;
+padding: 10px 17px;
+border:none;
+font-family: Mergeblack;
+color: white;
+background-color: #030303;
+}
+.form_group_contact_50{
+width: 50%;
+margin-bottom: 10px;
+
+}
+.form_group_contact{
+width: 100%;
+margin-bottom: 10px;
+}
+.form_control_contact{
+color: white;
+background-color: rgb(233, 233, 233);  
+  border: none;
+border-radius: 15px;
+width: 80%;
+padding: 10px ;
+min-height: 2.4375rem;
+}
+.email{
+width: 90%;
+}
+.info_mess{
+width: 90%;
+min-height: 8rem !important;
+overflow: visible;
+}
+.list-info{
+    font-family: Mergeblack;
+
+}
+
+.form-contact .btn_order{
+    font-family: Mergeblack;
+}
+.box-send h2{
+font-family: Mergeblack;
+
+}
+.row-contact{
+padding: 30px 0;
+margin: 0 auto;
+}

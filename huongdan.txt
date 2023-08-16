@@ -1,0 +1,3 @@
+tài khoản admin:
+admin (trieu)
+database là mysql
